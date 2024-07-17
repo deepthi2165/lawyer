@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    position: relative;
+}
+.logo{
+    background-image: url("logo.png"); 
+    border-radius: 50%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 10px;
+    width: 100px;
+    height: auto;
+    
+}
+
+section {
+    min-height: 100vh;
+    background-image: url("1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-content {
+    flex: 2;
+}
+
+.article {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.article1 h1{
+    color: #0a0b08;
+    font-size: 30px;
+    font-weight: 200px;
+    text-align: top;
+    text-size-adjust: 20px;
+}
+.article1 h1 sub{
+    color: #0a0b08;
+    text-transform: unset;
+    text-align: right;
+    font-weight: 80;
+    font-size: 20px;
+}
+.container1{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    flex:1;
+    min-width: 200px;
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 200px;
+    text-align: center;
+    text-decoration: solid;
+
+}
+.card:hover{
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    background-color: color(from color srgb r g b);
+    transform: scale(1.09);
+}
+.card .content{
+    padding: 10px;
+}
+.card .content h3{
+    color: #f6f3f2;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.icons{
+    display: flex;
+    gap: 50px;
+}
+a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    background:  rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    transition: 0.3, transform 0.3s;
+}
+a:hover{
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+    cursor: pointer;
+}
+.text{
+    color: rgb(10, 3, 3);
+    font-size: 15px;
+    text-size-adjust: 20px;
+    font-size: large;
+}
+.text h2{
+    color: rgb(244, 247, 242);
+    font-size: 30px;
+    text-align: center;
+}
+.number {
+    color: #000102;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 20px ;
+    
+    
+    
+}
+.number:hover{
+    text-decoration: underline;
+}
+.info-link{
+  color: #060d15; /* Blue color */
+  text-decoration: none; /* No underline */
+  
+  display: inline;
+  margin: 10px 0;
+  text-align: left;
+
+}
+.info-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.form-section {
+    flex: 1;
+    margin-bottom: 20px ;
+}    
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 350px;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.form h1 {
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin: 50px;
+}
+
+.box {
+    padding: 5px;
+    margin: 1px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+#submit {
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: rgb(227, 230, 233);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
